@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite">
+<listeners>
+<listener class-name="com.orange.TEstCase.listenerclass"></listener>
+</listeners>
+ <test name="Test Basics">
+      <classes>
+      <class name="com.orange.TEstCase.TC_loginPage"/>
+      </classes>
+  </test>
+   
+ <!-- <test name="Test Basics 1">
+    <classes>
+       <class name="com.orange.TEstCase.assignment5"/>
+    </classes>
+     
+  </test> Test -->
+</suite> <!-- Suite -->
