@@ -19,8 +19,8 @@ public class TC_loginPage extends BaseClass{
 		String userp=passw;
 		loginPageObject lp=new loginPageObject(driver);
 		driver.get(baseurl);
-		lp.setUsername(user);
-		lp.setPassword(passw);
+		lp.setUsername(username);
+		lp.setPassword(password);
 		lp.loginbutton();
 		//Assert.assertTrue(false);
 		
