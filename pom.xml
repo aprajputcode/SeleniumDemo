@@ -100,11 +100,11 @@
           <version>2.22.1</version>
           <configuration>
 					<!-- Suite testng xml file to consider for test execution -->
-					<suiteXmlFiles>
-						<suiteXmlFile>testng.xml</suiteXmlFile>
-						<suiteXmlFile>testng.xml</suiteXmlFile>
-					</suiteXmlFiles>
-				</configuration>
+		<suiteXmlFiles>
+			<suiteXmlFile>testng2.xml</suiteXmlFile>
+			<suiteXmlFile>testng2.xml</suiteXmlFile>
+		</suiteXmlFiles>
+	</configuration>
         </plugin>
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
