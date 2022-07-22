@@ -99,7 +99,7 @@
           <artifactId>maven-surefire-plugin</artifactId>
           <version>2.22.1</version>
 <!--           <configuration>
-		  <!-- Suite testng xml file to consider for test execution -->
+		  Suite testng xml file to consider for test execution
 		<suiteXmlFiles>
 			<suiteXmlFile>testng2.xml</suiteXmlFile>
 			<suiteXmlFile>testng2.xml</suiteXmlFile>
